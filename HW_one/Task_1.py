@@ -3,7 +3,6 @@ print ("Введите трехзначное число")
 n = int(input())
 sum = 0
 while n > 0:
-    x = n % 10
-    sum = sum + x
+    sum += n % 10
     n = n // 10
 print("сумма чисел =", sum)
