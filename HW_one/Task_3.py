@@ -12,12 +12,11 @@ m = a // 1000
 sum1 = 0
 sum2 = 0
 while n > 0 and m > 0:
-    x = n % 10
-    sum1 = sum1 + x
-    n = n // 10
-    y = m % 10
-    sum2 = sum2 + y
-    m = m // 10
+    
+    sum1 += n % 10    
+    n //= 10
+    sum2+= m % 10
+    m //= 10
 if sum1 == sum2:
     print('Билет счастливый')
 else:
