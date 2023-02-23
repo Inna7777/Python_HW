@@ -12,5 +12,7 @@ import math
 if d >= 0:  
     x = round ((s + (math.sqrt(d)))/2)
     y = s - x
-    
     print (x,';',y)
+else:
+    print('ввели неправильные значения')
+
