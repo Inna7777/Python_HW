@@ -4,7 +4,7 @@
 def degree(a, b): #задаем рекурсию
     if b == 0:
         return 1 # выход из цикла рекурсии
-    return(a * degree(a, b-1))
+    return a * degree(a, b-1)
 
 a = int(input('введите число '))
 b = int(input('введите степень '))
