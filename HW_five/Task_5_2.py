@@ -5,8 +5,8 @@
 
 def sum(a, b):# рекурсия суммы двух чисел
     if b == 0: # условия выхода из рекурсии
-        return (a)
-    return(sum(a+1, b-1))
+        return a
+    return sum(a + 1, b - 1)
     
     
 a = int(input('введите первое слагаемое '))   
